@@ -77,3 +77,9 @@ $(document).ready(function(){
 
 
 //
+$(document).ready(function(){
+  $(".forLoding").fadeOut(3000 , function(){
+    $("body").css({overflow : "auto"}, 2000);
+  });
+  
+})
